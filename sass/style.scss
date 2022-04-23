@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+    background: linear-gradient(left, #5dade2, #00c6ff);
+}
+
+.container{
+    width: 45%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    width: 30rem;
+    border-radius: 40px;
+    padding: 0rem 3rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+.javascript{
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.javascript img{
+    height: 20vh;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+}
+
+.circle{
+    width: 12rem;
+    height: 12rem;
+    background: linear-gradient(left, #00c6ff, #5dade2);
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.info h1{
+    font-size: 2rem;
+    transition: all 0.75s ease-out;
+}
+.info h3{
+    font-size: 1.2rem;
+    padding: 2rem 0;
+    color: #585858;
+    font-weight: lighter;
+    transition: all 0.75s ease-out;
+}
+
+.versions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.versions button{
+    padding: 0.5rem 2rem;
+    background: #5dade2;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    // color: #585858;
+    color: white;
+    transition: all 0.75s ease-out;
+}
+
+button.active{
+    background: #585858;
+    
+}
+
+.details{
+    margin-top: 2rem;
+    transition: all 0.75s ease-out;
+}
+
+.details button{
+    width: 100%;
+    padding: 1rem 0;
+    background: #fec038;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+    // font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.75s ease-out;
+}
+

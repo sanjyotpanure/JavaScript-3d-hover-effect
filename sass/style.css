@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  background: -webkit-gradient(linear, left top, right top, from(#5dade2), to(#00c6ff));
+  background: linear-gradient(left, #5dade2, #00c6ff);
+}
+
+.container {
+  width: 45%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  min-height: 80vh;
+  width: 30rem;
+  border-radius: 40px;
+  padding: 0rem 3rem;
+  -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+.javascript {
+  min-height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.javascript img {
+  height: 20vh;
+  z-index: 2;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.circle {
+  width: 12rem;
+  height: 12rem;
+  background: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#5dade2));
+  background: linear-gradient(left, #00c6ff, #5dade2);
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.info h1 {
+  font-size: 2rem;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.info h3 {
+  font-size: 1.2rem;
+  padding: 2rem 0;
+  color: #585858;
+  font-weight: lighter;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.versions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.versions button {
+  padding: 0.5rem 2rem;
+  background: #5dade2;
+  border: none;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: white;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+button.active {
+  background: #585858;
+}
+
+.details {
+  margin-top: 2rem;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.details button {
+  width: 100%;
+  padding: 1rem 0;
+  background: #fec038;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-size: 1rem;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+/*# sourceMappingURL=style.css.map */
